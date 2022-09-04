@@ -8,7 +8,7 @@
 #define pass "your ntwork password"
 X509List cert (TELEGRAM_CERTIFICATE_ROOT);
 WiFiClientSecure secured_client ;
-UniversalTelegramBot burgb( "5435412393:AAF-JRoIDJ2ReTXSol-wozuqAxvRi8Mg0QI" , secured_client);  //bot API from the bot father
+UniversalTelegramBot burgb( "your bot token" , secured_client);  //bot API from the bot father
 int D;
 int F;
 void setup() {
